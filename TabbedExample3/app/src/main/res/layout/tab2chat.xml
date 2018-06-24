@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.oosam.tabbedexample.MainActivity$SectionsPagerAdapter">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="搜尋"
+        android:inputType="textPersonName" />
+
+    <ListView
+        android:id="@+id/lv1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="11dp" />
+</RelativeLayout>
